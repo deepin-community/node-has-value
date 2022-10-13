@@ -1,0 +1,31 @@
+Source: node-has-value
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 12),
+               dh-buildinfo,
+               mocha,
+               node-has-values (>= 2.0.1),
+               node-get-value,
+               node-isobject,
+               pkg-js-tools (>= 0.9.19~)
+Standards-Version: 4.4.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-has-value
+Vcs-Git: https://salsa.debian.org/js-team/node-has-value.git
+Homepage: https://github.com/jonschlinkert/has-value
+Rules-Requires-Root: no
+
+Package: node-has-value
+Architecture: all
+Depends: ${misc:Depends},
+         nodejs,
+         node-has-values (>= 2.0.1),
+         node-get-value,
+         node-isobject
+Description: node library that returns true if a value exists
+ Returns true if a value exists, false if empty. Works with deeply nested
+ values using object paths.
+ .
+ Node.js is an event-based server-side JavaScript engine.

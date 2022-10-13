@@ -1,0 +1,42 @@
+node-has-value (2.0.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Back to unstable after successful tests
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 16 Dec 2019 22:03:55 +0100
+
+node-has-value (2.0.2-1) experimental; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Require node-has-values ≥ 2.0.1
+  * New upstream version 2.0.2
+  * Switch test and install to pkg-js-tools
+  * Update description
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 04 Dec 2019 21:22:16 +0100
+
+node-has-value (0.3.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Remove useless dependency versions. Fixes debci
+  * Bump debhelper compatibility level to 11
+  * Declare compliance with policy 4.3.0
+  * Update VCS fields to salsa
+  * Change section to javascript
+  * Add upstream/metadata
+  * Fix debian/copyright format link
+  * Trailing whitespaces
+  * Fix bad autopkgtest
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 22 Jan 2019 12:03:49 +0100
+
+node-has-value (0.3.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #842028)
+
+ -- Sruthi Chandran <srud@disroot.org>  Tue, 25 Oct 2016 18:37:26 +0530
